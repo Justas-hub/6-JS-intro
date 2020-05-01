@@ -23,7 +23,7 @@ console.log( vardas3 );
 //Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių tipo reikšmėmis
 //Po kiekvieno jų inicijavimo, išvesti į console
 
-const skaiciai = [27, 3, 8];
+const skaiciai = [27, 3, 8, 5, 6];
 
 console.log( skaiciai );
 
@@ -33,3 +33,14 @@ console.log( skaiciai );
 const vardai = ['Petras','Jonas','Zigmas'];
 
 console.log( vardai );
+
+//Susumuoti visus skaičiaus tipo kintamuosius
+
+const suma = sk1 + sk2 + sk3;
+console.log(suma); 
+
+//Sujungti visus teksto tipo kintamuosius taip, jog tarp būtų sudarytas tarpas
+const vardaiTarpais = vardas1 +' '+ vardas2+' '+vardas3
+console.log( vardaiTarpais )
+
+//Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
